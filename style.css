@@ -1,0 +1,165 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 42px;
+color: #585A63;
+}
+h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+
+h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+   
+    }
+    a{
+        color:#000000;
+        }
+    a:hover{
+        font-weight: bold; 
+        color:#000000;
+    }
+
+#hello{
+    background-color: white;
+    height: 100vh;
+}
+@media screen and (max-width: 600px) {
+    #hello {
+      height: 100vh;
+    }
+  }
+
+#uxDesigner,#menuBar{
+    text-align: center;
+    padding-top: 15%;
+}
+
+#myName{
+    text-align: center;
+}
+#menuWork{
+    text-align: center;
+   
+}
+
+#logocirc{
+    display:block;
+margin:auto;
+
+}
+
+#about{
+    background-color: #FCF089;
+    height: 100vh;
+}
+
+
+
+#work,#pdl{
+    background-color: white;
+    height: 100vh;
+
+}
+@media screen and (max-width: 600px) {
+    #work, #pdl, #about {
+      height: 50vh;
+    }
+  }
+
+.pdlfoto{
+    width: 100%;
+}
+.pdlfotolast{
+    width: 100%;
+    padding-bottom: 10%
+}
+.textProjectTitle{
+    width:80%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.textProjectParaf{
+    width:80%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+
+}
+
+#aboutme, #contactme{
+    
+    margin-top: 40%;
+    /*margin-right: 90px;*/
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+    padding-bottom: 15%;
+}
+
+
+
+#mcpdl{
+    margin-top: 15%;
+    /*margin-right: 90px;*/
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cute{
+    font-family: 'Mr Dafoe', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 65px;
+line-height: 101px;
+/* identical to box height */
+
+text-align: center;
+padding-top: 40%;
+
+}
+@media screen and (max-width: 600px) {
+    .cute {
+        padding-top: 10%;
+        
+    }
+  }
+#flow{
+    margin: auto;
+  height: 100vh;
+  overflow: scroll;
+ 
+}
+.logo{
+    width:100%;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+ 
+
+  .portrait
+  {max-width:135px;position:absolute;right:-67px;top:96px}
+  @media screen and (max-width: 600px) {
+
+    .portrait {display:none;}
