@@ -30,6 +30,8 @@ h4{
     }
     a{
         color:#000000;
+        /* font-weight: bold; */
+        text-decoration: underline;
         }
     a:hover{
         font-weight: bold; 
@@ -93,13 +95,13 @@ margin:auto;
 .textProjectTitle{
     width:80%;
     margin-left: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .textProjectParaf{
     width:80%;
     padding-left: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     
 
 }
@@ -128,7 +130,7 @@ margin:auto;
 font-style: normal;
 font-weight: normal;
 font-size: 65px;
-line-height: 101px;
+line-height: 50px;
 /* identical to box height */
 
 text-align: center;
