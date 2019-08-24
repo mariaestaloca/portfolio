@@ -164,4 +164,27 @@ html {
   {max-width:135px;position:absolute;right:-67px;top:96px}
   @media screen and (max-width: 600px) {
 
-    .portrait {display:none;}
+.portrait {display:none;
+    }
+
+ /*Floating Back-To-Top Button*/
+ #myBtn{
+     display: none;
+ }
+ 
+ @media screen and (max-width: 600px) {
+ #myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 2%;
+    /* left: 77.25%; */
+    max-width: 15%;
+    width: 100%;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: whitesmoke;
+    padding: .5px;
+    border-radius: 4px;
+
+}}
+
